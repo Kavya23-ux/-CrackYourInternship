@@ -29,3 +29,14 @@ class Solution {
         return null;
     }
 }
+
+Detailed Explaination--->
+nums = [2 3 1 5 7]    target = 10
+        0 1 2 3 4
+        i j j j j
+
+j = i+1
+By comparing, 2+3!=10     3+1!=10
+              2+1!=10     3+5!=10
+              2+5!=10     3+7=10
+                       nums[i]+nums[j]==target
